@@ -1,0 +1,33 @@
+.app__recommendation-api-messages{
+    margin: 1rem 0
+}
+
+
+.app__recommendation-message, .app__recommendation-message-author, .app__recommendation-organisation{
+    margin: 2rem 0;
+}
+
+hr{
+    position: relative;
+    left: 0;
+    width: 300px;
+    height: 5px;
+    background-color: var(--color-golden);
+    text-align: center;
+}
+
+
+@media screen and (min-width:678px){
+    .app__recommendation-message, .app__recommendation-message-author, .app__recommendation-organisation{
+        margin: 1rem 0;
+    }
+
+    hr{
+        left: 35%;
+    }
+
+    .app__recommendation-api-messages{
+        min-height: 250px;
+    }
+
+}

@@ -1,6 +1,5 @@
 import React from 'react'
 import './Reservation.css'
-import { useState } from 'react';
 import { useContext } from 'react';
 import { ThemeContext } from '../context/ContextComp'
 

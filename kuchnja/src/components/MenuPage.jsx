@@ -1,12 +1,14 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from '../context/ContextComp'
 import './Slider.css'
+import './MenuPage.css'
 import Subheading from './Subheading';
 import rightimg from '../assets/right-arrow.svg'
 import leftimg from '../assets/left-arrow.svg'
+import SpecialMenu from './SpecialMenu';
 import { Link } from 'react-router-dom';
 
-function Slider() {
+export default function MenuPage() {
   const {menu, setMenu, index, setIndex } = useContext(ThemeContext)
 
   return (
@@ -43,9 +45,8 @@ function Slider() {
             </button>
             
         </div>
-        <button type='button' className='custom__button' id='app__menu-button'><Link to="/menu">Know more</Link></button>
+        <button type='button' className='custom__button' id='app__menu-button'><Link to="/contact">Book Now</Link></button>
+        <SpecialMenu/>
     </div>
   )
 }
-
-export default Slider

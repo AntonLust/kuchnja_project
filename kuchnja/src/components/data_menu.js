@@ -1,7 +1,7 @@
 const people = [
   {
     id: 1,
-    image: "/src/assets/Borsch.jpg",
+    image: "/images/Borsch.jpg",
     name: "Borsch",
     title: "office manager",
     quote:
@@ -9,7 +9,7 @@ const people = [
   },
   {
     id: 2,
-    image: "/src/assets/Wareniki.jpg",
+    image: "/images/Wareniki.jpg",
     name: "Wareniki",
     title: "regular guy",
     quote:
@@ -17,7 +17,7 @@ const people = [
   },
   {
     id: 3,
-    image: "/src/assets/Plov.jpg",
+    image: "/images/Plov.jpg",
     name: "Plov",
     title: "product designer",
     quote:
@@ -25,7 +25,7 @@ const people = [
   },
   {
     id: 4,
-    image: "/src/assets/Pelmeni.jpg",
+    image: "/images/Pelmeni.jpg",
     name: "Pelmeni",
     title: "the boss",
     quote:
@@ -33,7 +33,7 @@ const people = [
   },
   {
     id: 5,
-    image: "/src/assets/Bliny.jpg",
+    image: "/images/Bliny.jpg",
     name: "Bliny",
     title: "the boss",
     quote:

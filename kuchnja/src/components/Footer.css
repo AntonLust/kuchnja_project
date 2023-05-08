@@ -1,0 +1,8 @@
+.app__footer-section{
+    background: var(--color-crimson);
+    text-align: center;
+}
+
+.app__footer-section p{
+    color: var(--color-black);
+}

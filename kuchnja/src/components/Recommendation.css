@@ -1,0 +1,16 @@
+.app__recommendation__wrapper{
+    background-color: var(--color-black);
+}
+
+.app__recommendation-api-messages{
+    min-height: 360px;
+}
+
+.app__recommendation-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04rem;
+    line-height: 117px;
+    font-size: 90px;
+}
+

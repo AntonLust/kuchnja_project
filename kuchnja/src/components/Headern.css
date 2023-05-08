@@ -1,0 +1,28 @@
+.app__header__wrapper{
+    background-color: var(--color-black);
+    display: block;
+}
+
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04rem;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+
+.app__wrapper_img img{
+    border-left: solid 3px var(--color-golden);
+}
+
+@media screen and (min-width:768px){
+    .app__header__wrapper{
+        display: flex;
+    }
+
+    .app__wrapper_img{
+           padding: 2rem;
+    }    
+
+}

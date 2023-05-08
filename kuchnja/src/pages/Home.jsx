@@ -14,6 +14,7 @@ function Home() {
       <Slider/>
       <Reservation/>
       <Recommendation/>
+      {/* Kommentar */}
     </div>
   )
 }

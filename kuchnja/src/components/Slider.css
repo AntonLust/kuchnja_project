@@ -105,11 +105,17 @@ article.nextSlide {
 
 @media (min-width: 992px) {
 
+.section-center{
+  overflow-x:unset;
+}
+
   article{
     left: 190px;
     padding: 1rem;
     opacity: 1;
     width: 400px;
+    border: 1px solid blue;
+
 
 }
 

@@ -17,7 +17,7 @@ export default function Navbar2() {
       <div>
           <nav className='app__navbar'>
               <div className="app__navbar-logo">
-                  Kuchnja
+                  <Link to="/">Kuchnja</Link>
               </div>
 
               <ul className="app__navbar-links" id={showLinks ? 'hidden' : ""}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutimg from '../assets/peppermill.png'
+import aboutimg from '/images/peppermill.png'
 import { Link } from 'react-router-dom'
 
 function AboutsUsPage() {

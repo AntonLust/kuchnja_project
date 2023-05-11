@@ -1,7 +1,7 @@
 import React from 'react'
 import './SpecialMenu.css'
 import data from './data'
-import menuImg from '../assets/Cocktail.png'
+import menuImg from '/images/peppermill.png'
 import MenuItem from './MenuItem'
 import { Link } from 'react-router-dom'
 

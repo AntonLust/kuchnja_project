@@ -1,7 +1,7 @@
 import React from 'react'
 import Subheading from './Subheading'
 import './Headern.css'
-import headerimg from '../assets/manty.jpg'
+import headerimg from '/images/manty.jpg'
 import { Link } from 'react-router-dom'
 
 export default function Headern() {

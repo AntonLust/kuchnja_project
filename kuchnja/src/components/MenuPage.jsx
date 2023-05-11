@@ -3,8 +3,8 @@ import { ThemeContext } from '../context/ContextComp'
 import './Slider.css'
 import './MenuPage.css'
 import Subheading from './Subheading';
-import rightimg from '../assets/right-arrow.svg'
-import leftimg from '../assets/left-arrow.svg'
+import rightimg from '/images/right-arrow.svg'
+import leftimg from '/images/left-arrow.svg'
 import SpecialMenu from './SpecialMenu';
 import { Link } from 'react-router-dom';
 

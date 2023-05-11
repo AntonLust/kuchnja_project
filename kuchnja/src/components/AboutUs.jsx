@@ -1,7 +1,7 @@
 import React from 'react'
 // import Subheading from './Subheading'
 import './AboutUs.css'
-import aboutimg from '../assets/peppermill.png'
+import aboutimg from '/images/peppermill.png'
 import { Link } from 'react-router-dom'
 
 
